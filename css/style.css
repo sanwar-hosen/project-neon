@@ -1,6 +1,13 @@
-div{
+.paragraph{
     background-color: blue;
     text-align: justify;
     font-family: monospace;
     font-size: 30px;
+    justify-content: center;
+    display: flex;
+}
+.list{
+    background-color: tomato;
+    margin: 10px;
+    font-family: impact;
 }
