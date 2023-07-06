@@ -1,3 +1,27 @@
+.header{
+    background-color: #70e000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;
+
+}
+.icon{
+    border: 1px solid black;
+    color: red;
+    font-family: 'Courier New', monospace
+}
+.dir{
+    display: flex;
+    justify-content: center;
+    margin-inline: 20px;
+    border: 1px solid black;
+
+}
+
 .paragraph{
     background-color: blue;
     text-align: justify;
@@ -5,21 +29,47 @@
     font-size: 30px;
     justify-content: center;
     display: flex;
+    margin-top: 10px;
 }
-.list{
+/* .list{
     background-color: tomato;
     margin: 10px;
     font-family: impact;
-}
-
+} */
+/* 
 img{
     width: 300px;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+} */
+
+/* .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+} */
+
+/* .box{
+    padding: 20px;
+    background-color: chartreuse;
+    width: 110px;
+    border: 2px solid rgb(0, 73, 230);
+
 }
 
-body{
-    cursor: url(/css/emoji.png), auto;
+.box1{
+    background-color: #70e000;
+    width: 90px;
 }
+.box2{
+    background-color: #478d00;
+    width: 70px;
+}
+.box3{
+    background-color: #274e00;
+    width: 50px;
+} */
+
