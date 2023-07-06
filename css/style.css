@@ -19,3 +19,7 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
+
+body{
+    cursor: url(/css/emoji.png), auto;
+}
