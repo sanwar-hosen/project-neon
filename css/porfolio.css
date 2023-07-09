@@ -22,6 +22,9 @@ body {
 /* header style */
 header {
     background-color: #FFF8F3;
+    background-image: url(../image/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 /* nav style */
@@ -29,7 +32,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 150px;
+    padding-inline: 150px;
 }
 
 nav>ul {
@@ -61,7 +64,7 @@ nav a {
 .banner {
     padding: 30px 0px 0px 150px;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -69,9 +72,10 @@ nav a {
     display: block;
 }
 
-.banner-text{
+.banner-text {
     padding-top: 100px;
 }
+
 .banner-greet {
     font-size: 45px;
     font-weight: 600;
@@ -98,6 +102,7 @@ nav a {
     justify-content: space-between;
     border-radius: 5px;
     background: #FD6E0A;
+    border: 1px solid #FD6E0A;
     border: 0px;
     font-size: 20px;
     color: white;
@@ -106,21 +111,29 @@ nav a {
     padding-block: 15px;
 }
 
+.cv-button:hover {
+    background: #FFF8F3;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+
 #contact-button {
     justify-content: space-between;
     background: #FFF8F3;
+    color: #FD6E0A;
     border-radius: 5px;
     border: 1px solid #FD6E0A;
-    color: #FD6E0A;
     font-size: 20px;
     font-weight: 700;
     padding-inline: 24px;
     padding-block: 15px;
 }
-#contact-button:hover{
+
+#contact-button:hover {
     color: #FFF8F3;
     background: #FD6E0A;
 }
+
 .banner>div>button {
     margin-inline-end: 25px;
 }
