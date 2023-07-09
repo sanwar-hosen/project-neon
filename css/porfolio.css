@@ -20,15 +20,16 @@ body {
 }
 
 /* header style */
-header{
+header {
     background-color: #FFF8F3;
 }
+
 /* nav style */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 230px;
+    padding: 0px 180px;
 }
 
 nav>ul {
@@ -50,4 +51,62 @@ nav a {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+}
+
+.banner {
+    padding: 30px 30px 0px 180px;
+}
+
+.banner>div {
+    display: block;
+}
+
+.banner-greet {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-block: 0px;
+}
+
+.banner-title {
+    font-size: 80px;
+    font-weight: 700;
+    color: #181818;
+    margin-block: 0px;
+    margin-inline: 0px;
+}
+
+.banner-para {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 580px;
+}
+
+.cv-button {
+    justify-content: space-between;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0px;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    padding-inline: 17px;
+    padding-block: 15px;
+}
+
+#contact-button {
+    justify-content: space-between;
+    background: #FFF8F3;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    padding-inline: 24px;
+    padding-block: 15px;
+}
+
+.banner>div>button {
+    margin-inline-end: 25px;
 }
