@@ -25,6 +25,7 @@ header {
     background-image: url(../image/developer.png);
     background-repeat: no-repeat;
     background-size: contain;
+    padding-top: 10px;
 }
 
 /* nav style */
@@ -33,6 +34,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding-inline: 150px;
+    margin-top: -50px;
 }
 
 nav>ul {
