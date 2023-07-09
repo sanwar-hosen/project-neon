@@ -22,9 +22,9 @@ body {
 /* header style */
 header {
     background-color: #FFF8F3;
-    background-image: url(../image/header_bg.png);
+    background-image: url(../image/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-size: contain;
 }
 
 /* nav style */
@@ -66,6 +66,9 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-image: url(../image/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner>div {
@@ -136,4 +139,8 @@ nav a {
 
 .banner>div>button {
     margin-inline-end: 25px;
+}
+
+.pic{
+    margin-bottom: -5px;
 }
