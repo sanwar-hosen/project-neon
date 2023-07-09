@@ -29,7 +29,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 180px;
+    padding: 0px 150px;
 }
 
 nav>ul {
@@ -40,6 +40,11 @@ nav>ul {
 nav li {
     list-style: none;
     margin-left: 50px;
+
+}
+
+nav li>a:hover {
+    color: #FD6E0A;
 }
 
 nav a {
@@ -54,13 +59,19 @@ nav a {
 }
 
 .banner {
-    padding: 30px 30px 0px 180px;
+    padding: 30px 0px 0px 150px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
 }
 
 .banner>div {
     display: block;
 }
 
+.banner-text{
+    padding-top: 100px;
+}
 .banner-greet {
     font-size: 45px;
     font-weight: 600;
@@ -69,7 +80,7 @@ nav a {
 }
 
 .banner-title {
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 700;
     color: #181818;
     margin-block: 0px;
@@ -106,7 +117,10 @@ nav a {
     padding-inline: 24px;
     padding-block: 15px;
 }
-
+#contact-button:hover{
+    color: #FFF8F3;
+    background: #FD6E0A;
+}
 .banner>div>button {
     margin-inline-end: 25px;
 }
