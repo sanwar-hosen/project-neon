@@ -3,9 +3,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-main > section{
+main>section {
     margin: 130px;
 }
+
 .primary-color {
     color: #FD6E0A;
 }
@@ -214,7 +215,7 @@ nav a {
 .skill-container {
     display: flex;
     justify-content: center;
-    padding-inline: 200px;
+    padding-inline: 60px;
 
 }
 
@@ -238,27 +239,72 @@ nav a {
 }
 
 /* resume section|complex! */
-.resume-container{
+.resume-container {
     display: flex;
     justify-content: space-between;
 
     gap: 50px;
 }
-.resume-title{
-    color:#474747;
+
+.resume-title {
+    color: #474747;
     font-weight: bold;
     font-size: 30px;
 }
-.experience-title{
+
+.experience-title {
     font-size: 25px;
     font-weight: bold;
     color: #474747;
 }
-.exp-date{
+
+.exp-date {
     font-size: 20px;
     color: #757575;
 }
-.exp-des{
+
+.exp-des {
     font-size: 16px;
     color: #757575;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Footer section */
+footer {
+    background-color: #FFF8F3;
+    padding: 130px 180px;
+    display: flex;
+    gap: 100px;
+
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.footer-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.footer-des {
+    font-size: 15px;
+    color: #474747;
+}
+
+/* form */
+
+.contact input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding-block: 18px;
+    padding-inline: 35px;
+    border: 0px;
+    resize: none;
+    width: 100%;
 }
