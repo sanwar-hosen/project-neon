@@ -10,13 +10,18 @@ body {
 .prime-button {
     border-radius: 5px;
     background: #FD6E0A;
-    border: 0px;
+    border: 1px solid;
     font-size: 20px;
     color: white;
     font-weight: 700;
     padding-inline: 35px;
     padding-block: 18px;
+}
 
+.prime-button:hover {
+    background: #FFF8F3;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
 }
 
 /* header style */
@@ -26,6 +31,7 @@ header {
     background-repeat: no-repeat;
     background-size: contain;
     padding-top: 10px;
+    margin: -7px;
 }
 
 /* nav style */
@@ -107,7 +113,7 @@ nav a {
     justify-content: space-between;
     border-radius: 5px;
     background: #FD6E0A;
-    border: 1px solid #FD6E0A;
+    border: 1px solid;
     border: 0px;
     font-size: 20px;
     color: white;
@@ -127,7 +133,7 @@ nav a {
     background: #FFF8F3;
     color: #FD6E0A;
     border-radius: 5px;
-    border: 1px solid #FD6E0A;
+    border: 1px solid;
     font-size: 20px;
     font-weight: 700;
     padding-inline: 24px;
@@ -143,6 +149,51 @@ nav a {
     margin-inline-end: 25px;
 }
 
-.pic{
-    margin-bottom: -5px;
+/* About me Section */
+.about-section {
+    text-align: center;
+    padding: 130px 50px;
+    background-color: #FFF8F3;
+    border: 1px solid #FD6E0A;
+    border-radius: 15px;
+    margin: 130px;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: open sans;
+    font-style: normal;
+    line-height: normal;
+    color: #181818;
+}
+
+.section-des {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+}
+
+.about-div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.about-info {
+    justify-content: space-around;
+}
+
+.info-normal {
+    color: #757575;
+
+}
+
+.info-bold {
+    color: #474747;
+    font-weight: bold;
+    margin-block: -10px;
 }
