@@ -3,6 +3,9 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+main > section{
+    margin: 130px;
+}
 .primary-color {
     color: #FD6E0A;
 }
@@ -156,7 +159,7 @@ nav a {
     background-color: #FFF8F3;
     border: 1px solid #FD6E0A;
     border-radius: 15px;
-    margin: 130px;
+    /* margin: 130px; */
 }
 
 .section-title {
@@ -200,13 +203,17 @@ nav a {
     margin-block: -10px;
 }
 
+/* #whatido-id {
+    margin-block: 130px;
+} */
+
 .whatido {
     padding-inline: 270px;
 }
 
 .skill-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-inline: 200px;
 
 }
@@ -215,7 +222,7 @@ nav a {
     padding: 30px;
     border-radius: 5px;
     background: #FFF;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 6px 50px 0px #fd6f0a34;
     margin-left: 20px;
 }
 
@@ -228,4 +235,30 @@ nav a {
 .skill-des {
     color: #757575;
     font-size: 16px;
+}
+
+/* resume section|complex! */
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+
+    gap: 50px;
+}
+.resume-title{
+    color:#474747;
+    font-weight: bold;
+    font-size: 30px;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+.exp-date{
+    font-size: 20px;
+    color: #757575;
+}
+.exp-des{
+    font-size: 16px;
+    color: #757575;
 }
