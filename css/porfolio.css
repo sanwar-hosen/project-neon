@@ -166,12 +166,14 @@ nav a {
     font-style: normal;
     line-height: normal;
     color: #181818;
+    text-align: center;
 }
 
 .section-des {
     font-size: 18px;
     color: #757575;
     line-height: 30px;
+    text-align: center;
 }
 
 .about-div {
@@ -196,4 +198,34 @@ nav a {
     color: #474747;
     font-weight: bold;
     margin-block: -10px;
+}
+
+.whatido {
+    padding-inline: 270px;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 200px;
+
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-left: 20px;
+}
+
+.skill-title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #181818;
+}
+
+.skill-des {
+    color: #757575;
+    font-size: 16px;
 }
