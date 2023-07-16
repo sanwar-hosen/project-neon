@@ -31,7 +31,7 @@ main>section {
 /* header style */
 header {
     background-color: #FFF8F3;
-    background-image: url(../image/developer.png);
+    background-image: url(image/developer.png);
     background-repeat: no-repeat;
     background-size: contain;
     padding-top: 10px;
@@ -78,7 +78,7 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url(../image/header_bg.png);
+    background-image: url(image/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
 }
@@ -160,7 +160,6 @@ nav a {
     background-color: #FFF8F3;
     border: 1px solid #FD6E0A;
     border-radius: 15px;
-    /* margin: 130px; */
 }
 
 .section-title {
@@ -242,7 +241,6 @@ nav a {
 .resume-container {
     display: flex;
     justify-content: space-between;
-
     gap: 50px;
 }
 
@@ -299,7 +297,7 @@ footer {
 
 /* form */
 
-.contact input[type="text"], input[type="email"], textarea{
+.contact input[type="text"], input[type="email"], textarea {
     display: block;
     margin-bottom: 25px;
     padding-block: 18px;
@@ -307,4 +305,93 @@ footer {
     border: 0px;
     resize: none;
     width: 100%;
+}
+
+
+/* small screen */
+@media screen and (max-width:576px) {
+    body {
+        margin: 0px;
+    }
+
+    main>section {
+        margin: 20px;
+    }
+
+    .whatido {
+        padding-inline: 30px;
+        text-align: center;
+    }
+
+    .skill-container, .resume-container, .about-div {
+        flex-direction: column;
+        padding-inline: 0px;
+    }
+
+    .skill {
+        padding: 30px;
+        margin-bottom: 20px;
+        margin-inline: 30px;
+    }
+
+    footer, nav {
+        flex-direction: column;
+        padding-inline: 15px;
+    }
+
+    .footer-column {
+        width: 99%;
+    }
+
+    .contact {
+        width: 77%;
+    }
+
+    header {
+        background-image: none;
+    }
+
+    nav ul {
+        padding-inline: 0px;
+        margin: 0px;
+    }
+
+    nav li {
+        margin-inline: 10px;
+
+    }
+
+    .banner {
+        flex-direction: column;
+        background-position: center bottom;
+        background-size: contain;
+        padding: 10px 10px 0px 30px;
+        /* margin-inline: 10px; */
+    }
+
+    .banner-text {
+        padding-top: 30px;
+        /* padding-inline: 20px; */
+    }
+
+    .banner-greet {
+        font-size: 30px;
+    }
+
+    .banner-title {
+        font-size: 55px;
+    }
+
+    .banner-para {
+        font-size: 16px;
+    }
+
+    .banner img {
+        width: auto;
+        height: 400px;
+    }
+
+    .navtitle {
+        font-size: 40px;
+    }
 }
